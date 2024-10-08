@@ -1,0 +1,44 @@
+font{
+   color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    color: tomato;
+}
+h5{
+    color: grey;
+}
+h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 400px;
+    margin: 20px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.card{
+    width: fit-content;
+    margin: 0 auto;
+    line-height: 150%;
+background-color: wheat;
+
+}
+.card a{
+
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+   color: tomato;
+   background-color: thistle;
+   border-radius: 50px 0px 50px 0px;
+   transition: 0.5s;
+}
+.card a:hover{
+background-color: tomato;
+color: white;
+}
